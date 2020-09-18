@@ -1,11 +1,12 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NaviBar from './components/NaviBar';
 import { Switch, Route } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+// Pages
 import Home from './pages/Home';
 import Users from './pages/Users';
 import About from './pages/About';
+// Components
+import NaviBar from './components/NaviBar';
 
 function App() {
   return (
