@@ -7,6 +7,7 @@ import Users from './pages/Users';
 import About from './pages/About';
 // Components
 import NaviBar from './components/NaviBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <About />
         </Route>
       </Switch>
+      <Footer />
     </>
   );
 }
